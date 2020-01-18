@@ -13,4 +13,3 @@ def print_first_directors_movie_titles
     puts element[:tittle]
   end
 end
-
