@@ -11,3 +11,5 @@ def print_first_directors_movie_titles
   nds = directors_database
   pp nds
 end
+
+print_first_directors_movie_titles
