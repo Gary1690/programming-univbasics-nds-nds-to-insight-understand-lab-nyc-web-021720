@@ -9,7 +9,8 @@ end
 
 def print_first_directors_movie_titles
   nds = directors_database
-  pp nds
+  pp nds[0]
+  
 end
 
 print_first_directors_movie_titles
