@@ -8,7 +8,9 @@ def pretty_print_nds(nds)
 end
 
 def print_first_directors_movie_titles
-
+  NDS[0][:movies].each do |element|
+    puts element[:tittle]
+  end
 end
 
 pretty_print_nds(NDS)
