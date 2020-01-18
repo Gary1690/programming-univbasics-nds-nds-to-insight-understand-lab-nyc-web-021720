@@ -9,8 +9,9 @@ end
 
 def print_first_directors_movie_titles
   nds = directors_database
-  pp nds[0][:movies]
-
+  nds[0][:movies].each do |element|
+    pp element
+  end    
 end
 
 print_first_directors_movie_titles
